@@ -1,0 +1,33 @@
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+}
+.btn-edit {
+  text-align: right;
+}
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+button{
+  margin: 0px 2px;
+}
+
+.table-header {
+  padding-top: 10px;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+
+
+::ng-deep .mat-form-field-infix {
+  width: 100% !important;
+}
+
+.form-input {
+  padding-right: 5px;
+}
