@@ -26,7 +26,8 @@ router.post('/add', async function(req, res, next) {
 router.post('/update', async function(req, res, next) {
   try{
     var response = await updateTask(req.body);
-    res.json(response && response.modifiedCount == 1 ? req.body : null);
+    console.log(response);
+    res.json(response && response.matchedCount == 1 ? req.body : null);
   }
   catch(err){
     next(err);
